@@ -18,29 +18,19 @@ There is a parent script which serves the purpose of accepting all the input par
 
 I'll take a couple of moments to clearly explain parameters as they serve as scripts configuration.
 
-\-scriptDir <scripts\_location> - scripts location. Mandatory.
+- -scriptDir <scripts\_location> - scripts location. Mandatory.
+- -angularDir <angular\_app\_location> - Angular app location. Mandatory.
+- -repoDir <repository\_location> - Repo location. There's also a script that copies files to a repository location but excludes node\_modules and .angular folder. This is my preferred way to push projects into a repository. Not mandatory.
+- -netDir <.net\_location> - .net app location. Mandatory.
+- -publishDir <publish\_location> - Defines .NET publish output directory. Mandatory.
+- -computerName <vps\_ip\_address> - Mandatory.
+- -username <vps\_username> - Mandatory.
+- -passwordLocation <vps\_password\_location> - The password should be set in a .txt file and it's location set here. Mandatory.
+- -sessionAngularDir <vps\_angular\_location> - Output directory for file transfer to VPS. Mandatory
+- -sessionNetDir <vps\_.net\_location> - Output directory for file transfer to VPS. Mandatory.
+- -angularSiteName <angular\_site\_name> - Mandatory.
+- -netSiteName <.net\_site\_name> - Mandatory.
 
-\-angularDir <angular\_app\_location> - Angular app location. Mandatory.
-
-\-repoDir <repository\_location> - Repo location. There's also a script that copies files to a repository location but excludes node\_modules and .angular folder. This is my preferred way to push projects into a repository. Not mandatory.
-
-\-netDir <.net\_location> - .net app location. Mandatory.
-
-\-publishDir <publish\_location> - Defines .NET publish output directory. Mandatory.
-
-\-computerName <vps\_ip\_address> - Mandatory.
-
-\-username <vps\_username> - Mandatory.
-
-\-passwordLocation <vps\_password\_location> - The password should be set in a .txt file and it's location set here. Mandatory.
-
-\-sessionAngularDir <vps\_angular\_location> - Output directory for file transfer to VPS. Mandatory.
-
-\-sessionNetDir <vps\_.net\_location> - Output directory for file transfer to VPS. Mandatory.
-
-\-angularSiteName <angular\_site\_name> - Mandatory.
-
-\-netSiteName <.net\_site\_name> - Mandatory.
 
 
 ## **How to run - command**
