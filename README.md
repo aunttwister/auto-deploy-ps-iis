@@ -1,3 +1,5 @@
+Auto redeploy Angular & .NET to IIS with PowerShell
+
 This selection of scripts utilities PowerShell to deploy your Angular and .NET application to IIS. This is still work in progress as it can be either made simpler or can be enhanced, but the basis is there and it works, at least for me.
 
 Automatic deployment is done through multiple scripts. I saw some potential use for scripts outside of this.
