@@ -44,36 +44,22 @@ I'll take a couple of moments to clearly explain parameters as they serve as scr
 
 
 ## **How to run - command**
+```shell
+cd <scripts\_location>
 
-cd <scripts\_location> -
-
-
-
-.\\auto\_deploy\_iis.ps1 \`
-
-\-scriptDir <scripts\_location> \`
-
-\-angularDir <angular\_app\_location> \`
-
-\-repoDir <repository\_location> \`
-
-\-netDir <.net\_location> \`
-
-\-publishDir <publish\_location> \`
-
-\-computerName <vps\_ip\_address> \`
-
-\-username <vps\_username> \`
-
-\-passwordLocation <vps\_password\_location> \`
-
-\-sessionAngularDir <vps\_angular\_location>\`
-
-\-sessionNetDir <vps\_.net\_location> \`
-
-\-angularSiteName <angular\_site\_name>\`
-
-\-netSiteName <.net\_site\_name>
-
+.\auto\_deploy\_iis.ps1 \`
+-scriptDir <scripts\_location> \`
+-angularDir <angular\_app\_location> \`
+-repoDir <repository\_location> \`
+-netDir <.net\_location> \`
+-publishDir <publish\_location> \`
+-computerName <vps\_ip\_address> \`
+-username <vps\_username> \`
+-passwordLocation <vps\_password\_location> \`
+-sessionAngularDir <vps\_angular\_location>\`
+-sessionNetDir <vps\_.net\_location> \`
+-angularSiteName <angular\_site\_name>\`
+-netSiteName <.net\_site\_name> 
+```
 
 
