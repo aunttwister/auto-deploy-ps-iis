@@ -1,4 +1,4 @@
-#**Auto redeploy Angular & .NET to IIS with PowerShell**
+#Auto redeploy Angular & .NET to IIS with PowerShell
 
 This selection of scripts utilizes PowerShell to deploy your Angular and .NET apps to IIS. This is still a work in progress as it can be either made simpler or can be enhanced, but the basis is there and it works, at least for me.
 
@@ -8,7 +8,7 @@ There is a parent script that serves the purpose of accepting all the input para
 
 
 
-##**Prerequisites**
+##Prerequisites
 
 - Initial IIS setup is done - this script is for redeploying. Creating initial IIS config (bindings, sites, etc.) should be done prior.
 - PowerShell does require setup in order to access the VPS. A guide on how to do this can be found [here](https://www.microsoft.com/en-gb/industry/blog/technetuk/2016/02/11/configuring-winrm-over-https-to-enable-powershell-remoting/).
@@ -16,7 +16,7 @@ There is a parent script that serves the purpose of accepting all the input para
 
 
 
-##**Parameters**
+##Parameters
 
 I'll take a couple of moments to clearly explain parameters as they serve as script configurations.
 
@@ -46,7 +46,7 @@ I'll take a couple of moments to clearly explain parameters as they serve as scr
 
 
 
-##**How to run - command**
+##How to run - command
 
 cd <scripts\_location> -
 
