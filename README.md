@@ -35,7 +35,7 @@ I'll take a couple of moments to clearly explain parameters as they serve as scr
 
 ## **How to run - command**
 ```shell
-cd <scripts\_location>
+cd <scripts_location>
 
 .\auto_deploy_iis.ps1 `
 -scriptDir <scripts_location>`
