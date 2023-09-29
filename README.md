@@ -20,29 +20,18 @@ There is a parent script that serves the purpose of accepting all the input para
 
 I'll take a couple of moments to clearly explain parameters as they serve as script configurations.
 
-\-scriptDir <scripts\_location> - scripts location. Mandatory.
-
-\-angularDir <angular\_app\_location> - Angular app location. Mandatory.
-
-\-repoDir <repository\_location> - Repo location. There's also a script that copies files to a repository location but excludes node\_modules and .angular folder. This is my preferred way to push projects into a repository. Not mandatory.
-
-\-netDir <.net\_location> - .net app location. Mandatory.
-
-\-publishDir <publish\_location> - Defines .NET publish output directory. Mandatory.
-
-\-computerName <vps\_ip\_address> - Mandatory.
-
-\-username <vps\_username> - Mandatory.
-
-\-passwordLocation <vps\_password\_location> - The password should be set in a .txt file and its location set here. Mandatory.
-
-\-sessionAngularDir <vps\_angular\_location> - Output directory for file transfer to VPS. Mandatory.
-
-\-sessionNetDir <vps\_.net\_location> - Output directory for file transfer to VPS. Mandatory.
-
-\-angularSiteName <angular\_site\_name> - Mandatory.
-
-\-netSiteName <.net\_site\_name> - Mandatory.
+-scriptDir <scripts\_location> - scripts location. Mandatory.
+-angularDir <angular\_app\_location> - Angular app location. Mandatory.
+-repoDir <repository\_location> - Repo location. There's also a script that copies files to a repository location but excludes node\_modules and .angular folder. This is my preferred way to push projects into a repository. Not mandatory.
+-netDir <.net\_location> - .net app location. Mandatory.
+-publishDir <publish\_location> - Defines .NET publish output directory. Mandatory.
+-computerName <vps\_ip\_address> - Mandatory.
+-username <vps\_username> - Mandatory.
+-passwordLocation <vps\_password\_location> - The password should be set in a .txt file and its location set here. Mandatory.
+-sessionAngularDir <vps\_angular\_location> - Output directory for file transfer to VPS. Mandatory.
+-sessionNetDir <vps\_.net\_location> - Output directory for file transfer to VPS. Mandatory.
+-angularSiteName <angular\_site\_name> - Mandatory.
+-netSiteName <.net\_site\_name> - Mandatory.
 
 
 
@@ -50,31 +39,18 @@ I'll take a couple of moments to clearly explain parameters as they serve as scr
 
 cd <scripts\_location> -
 
-
-
 .\\auto\_deploy\_iis.ps1 \`
-
-\-scriptDir <scripts\_location> \`
-
-\-angularDir <angular\_app\_location> \`
-
-\-repoDir <repository\_location> \`
-
-\-netDir <.net\_location> \`
-
-\-publishDir <publish\_location> \`
-
-\-computerName <vps\_ip\_address> \`
-
-\-username <vps\_username> \`
-
-\-passwordLocation <vps\_password\_location> \`
-
-\-sessionAngularDir <vps\_angular\_location>\`
-
-\-sessionNetDir <vps\_.net\_location> \`
-
-\-angularSiteName <angular\_site\_name>\`
+-scriptDir <scripts\_location> \`
+-angularDir <angular\_app\_location> \`
+-repoDir <repository\_location> \`
+-netDir <.net\_location> \`
+-publishDir <publish\_location> \`
+-computerName <vps\_ip\_address> \`
+-username <vps\_username> \`
+-passwordLocation <vps\_password\_location> \`
+-sessionAngularDir <vps\_angular\_location>\`
+-sessionNetDir <vps\_.net\_location> \`
+-angularSiteName <angular\_site\_name>\`
 
 \-netSiteName <.net\_site\_name>
 
