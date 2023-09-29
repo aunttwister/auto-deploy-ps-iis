@@ -47,19 +47,19 @@ I'll take a couple of moments to clearly explain parameters as they serve as scr
 ```shell
 cd <scripts\_location>
 
-.\auto\_deploy\_iis.ps1 \`
--scriptDir <scripts\_location> \`
--angularDir <angular\_app\_location> \`
--repoDir <repository\_location> \`
--netDir <.net\_location> \`
--publishDir <publish\_location> \`
--computerName <vps\_ip\_address> \`
--username <vps\_username> \`
--passwordLocation <vps\_password\_location> \`
--sessionAngularDir <vps\_angular\_location>\`
--sessionNetDir <vps\_.net\_location> \`
--angularSiteName <angular\_site\_name>\`
--netSiteName <.net\_site\_name> 
+.\auto_deploy_iis.ps1 `
+-scriptDir <scripts_location>`
+-angularDir <angular_app_location>`
+-repoDir <repository_location>`
+-netDir <.net_location>`
+-publishDir <publish_location>`
+-computerName <vps_ip_address>`
+-username <vps_username>`
+-passwordLocation <vps_password_location>`
+-sessionAngularDir <vps_angular_location>`
+-sessionNetDir <vps_.net_location>`
+-angularSiteName <angular_site_name>`
+-netSiteName <.net_site_name> 
 ```
 
 
